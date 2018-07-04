@@ -1,0 +1,26 @@
+{
+  "name": "restful-api-express-mongoose",
+  "version": "1.0.0",
+  "description": "Example of a RESTful API built with Node.js, Express.js and Mongoose.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": " https://git.heroku.com/guarded-retreat-14648.git"
+  },
+  "author": "raju",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "actions-on-google": "^2.2.0",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.9"
+  }
+}
