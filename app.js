@@ -6,7 +6,7 @@ var dfRouter = require('./routers/webhook')
 
 var app = express();
 //var MongoClient = mongodb.MongoClient;
-var PORT = 8080;
+var PORT = process.env.PORT || 5000;
 var HOST_NAME = 'ds129821.mlab.com:29821';
 var DATABASE_NAME = 'faq';
 
