@@ -10,7 +10,6 @@ var PORT = process.env.PORT || 5000;
 var HOST_NAME = 'ds129821.mlab.com:29821';
 var DATABASE_NAME = 'faq';
 
-//var url = 'mongodb://raju:abc123@ds129821.mlab.com:29821/faq?authMechanism=SCRAM-SHA-1';
 var url = process.env.MONGODB_URI;
 mongoose.connect(url, {
   useMongoClient: true
