@@ -14,13 +14,14 @@
   "author": "raju",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "www.gassist.in"
   },
-  "homepage": "",
+  "homepage": "www.gassist.in",
   "dependencies": {
     "actions-on-google": "^2.2.0",
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
+    "mongodb": "^3.1.1",
     "mongoose": "^4.2.9"
   }
 }
