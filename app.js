@@ -18,20 +18,7 @@ mongoose.connect(url, {
 var db = mongoose.connection;
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-//mongoose.connect('mongodb://rkseepana:@lordM369' +'@' + HOST_NAME + '/' + DATABASE_NAME);
-//var url = 'mongodb://localhost:27017/my_database_name'
-/*MongoClient.connect(url, function (err, db) {
-  if (err) {
-    console.log('Unable to connect to the mongoDB server. Error:', err);
-  } else {
-    console.log('Connection established to', url);
 
-    // do some work here with the database.
-
-    //Close connection
-   // db.close();
-  }
-});*/
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
   extended: true
